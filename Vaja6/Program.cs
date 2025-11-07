@@ -23,7 +23,25 @@ namespace vaja6 {
             stIg++;
         }
 
-		// Lastnost Id
+        // Pretvordbeni
+        public Igralec(string i, string g)
+        {
+            u_ime = i;
+            u_geslo = g;
+            id = stIg;
+            stIg++;
+        }
+
+        //Kopirni
+        public Igralec(Igralec i)
+        {
+            u_ime = i.u_ime;
+            u_geslo = i.u_geslo;
+            id = stIg;
+            stIg++;
+        }
+
+        // Lastnost Id
         public int Id {
             get
             {
