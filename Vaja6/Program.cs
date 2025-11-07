@@ -14,6 +14,7 @@ namespace vaja6 {
         public string u_geslo;
         public static int stIg = 1;
 
+		// Provzeti konstruktor
         public Igralec() {
             u_ime = "";
             u_geslo = "";
@@ -21,6 +22,7 @@ namespace vaja6 {
             stIg++;
         }
 
+		// Lastnost Id
         public int Id {
             get
             {
@@ -28,6 +30,7 @@ namespace vaja6 {
             }
         }
 
+		// Lastnost U_ime
         public string U_ime {
             get
             {
@@ -39,6 +42,7 @@ namespace vaja6 {
             }
         }
 
+		// Lastnost U_geslo
         public string U_geslo
         {
             get
